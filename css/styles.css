@@ -916,17 +916,33 @@ margin-bottom: 73px; */
 /* -------------------- banner section -------------------- */
 .banner {
   margin: 0 auto;
-  padding-top: 110px;
+  /* padding-top: 110px;
   padding-bottom: 50px;
   max-width: 1510px;
-  height: 442px;
+  height: 442px; */
+  padding-top: 45px;
+  padding-bottom: 58px;
+  height: 358px;
 
   background-color: rgba(0, 0, 0, 0.5);
-  background-image: url('../images/hero-bg.png'), url('../images/banner_img.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../images/banner-mobile.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 481px) {
+  .banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url('../images/banner_img.jpg');
+    background-position: center;
+  }
 }
 
 .banner__title {
+  font-size: 24px;
   color: #ffffff;
+  margin-bottom: 16px;
 }
 
 .banner__title:after {
@@ -935,11 +951,12 @@ margin-bottom: 73px; */
 
 .text--white {
   color: #ffffff;
-  margin-bottom: 73px;
+  margin-bottom: 66px;
+  /* margin-bottom: 73px; */
 }
 
 .banner__btn {
-  min-width: 370px;
+  /* min-width: 370px; */
 }
 
 /* ----------------------- contact section ----------------- */
