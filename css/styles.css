@@ -112,9 +112,13 @@ body {
   }
 }  */
 
-.header__logo {
+.header__link {
   width: 65px;
   height: 23px;
+}
+.header__logo {
+  width: 100%;
+  height: 100%;
 }
 @media screen and (min-width: 768px) {
   .header__logo {
@@ -483,7 +487,7 @@ margin-bottom: 73px; */
   /* gap: 30px; */
   gap: 17px;
 
-  width: 286px;
+  /* width: 286px; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -661,7 +665,8 @@ margin-bottom: 73px; */
   display: flex;
   flex-direction: column;
   /* justify-content: space-between; */
-  gap: 30px;
+  /* gap: 30px; */
+  gap: 35px;
 }
 
 .about__list__item {
@@ -678,11 +683,14 @@ margin-bottom: 73px; */
   align-items: center;
   justify-content: center;
 
-  width: 92px;
-  height: 92px;
+  width: 80px;
+  height: 80px;
+  /* width: 92px;
+  height: 92px; */
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 80px;
+  /* margin-bottom: 80px; */
+  margin-bottom: 66px;
 
   color: #ec7979;
   border: 1px solid #ec7979;
@@ -690,19 +698,20 @@ margin-bottom: 73px; */
 }
 
 .icon-bulb {
-  width: 72px;
-  /* height: 72px; */
+  width: 56px;
+  /* width: 72px; */
   fill: currentColor;
 }
 
 .icon-keyboard {
-  width: 66px;
-  /* height: 46px; */
+  width: 57px;
+  /* width: 66px; */
   fill: currentColor;
 }
 
 .icon-lightning {
-  height: 66px;
+  height: 57px;
+  /* height: 66px; */
   fill: currentColor;
 }
 .about__list__svg {
@@ -726,7 +735,8 @@ margin-bottom: 73px; */
 }
 
 .about__list__title {
-  margin-bottom: 45px;
+  margin-bottom: 35px;
+  /* margin-bottom: 45px; */
 }
 
 .about__list__text {
@@ -868,11 +878,15 @@ margin-bottom: 73px; */
 
   position: absolute;
   top: 100%;
-  left: 70px;
+  left: 45px;
+  /* left: 70px; */
 
-  border-left: 15px solid transparent;
-  border-right: 15px solid transparent;
+  border-left: 13px solid transparent;
+  border-right: 13px solid transparent;
   border-top: 20px solid #e2e2e2;
+  /* border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 20px solid #e2e2e2; */
 }
 
 .reviews__item__wrap {
@@ -968,14 +982,17 @@ margin-bottom: 73px; */
 /* ----------------------- contact section ----------------- */
 
 .contact {
-  padding-top: 47px;
-  padding-bottom: 42px;
+  padding-top: 45px;
+  padding-bottom: 40px;
   /* padding-top: 110px;
   padding-bottom: 50px; */
 }
 
+.contact__title {
+  font-size: 24px;
+}
 .contact__text {
-  margin-bottom: 50px;
+  margin-bottom: 45px;
 }
 
 .contact__form {
@@ -1000,7 +1017,7 @@ margin-bottom: 73px; */
 .contact__form__field {
   display: block;
   color: #bdbdbd;
-  margin-bottom: 34px;
+  margin-bottom: 30px;
 }
 
 .contact__form__textarea {
