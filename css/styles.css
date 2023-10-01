@@ -1368,6 +1368,11 @@ margin-bottom: 73px; */
 
   background-color: #000000;
 }
+@media screen and (min-width: 768px) {
+  .footer {
+    padding-bottom: 30px;
+  }
+}
 
 .footer__list {
   display: flex;
@@ -1377,6 +1382,14 @@ margin-bottom: 73px; */
   /* width: 570px; */
   /* margin: 0 auto; */
 }
+@media screen and (min-width: 768px) {
+  .footer__list {
+    margin-bottom: 38px;
+    width: 482px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 .footer__link {
   width: 26px;
   height: 26px;
@@ -1385,6 +1398,13 @@ margin-bottom: 73px; */
 
   fill: #cccccc;
 }
+@media screen and (min-width: 768px) {
+  .footer__link {
+    width: 45px;
+    height: 45px;
+  }
+}
+
 .footer__icons {
   width: 100%;
   height: 100%;
