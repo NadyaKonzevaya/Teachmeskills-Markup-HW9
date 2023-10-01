@@ -31,7 +31,14 @@
         </a>
         <div class="header__wrap">
           <nav class="nav">
-            <ul class="nav__list">
+            <button type="button" class="header-nav__button" aria-expanded="false" aria-controls="menu-container"
+                    data-menu-button>
+                    <svg width="20" height="20" aria-label="Переключатель мобильного меню">
+                        <use class="header-nav__icon-cross" href="./images/icons.svg#icon-cross"></use>
+                        <use class="header-nav__icon-menu" href="./images/icons.svg#icon-menu"></use>
+                    </svg>
+                </button>
+            <ul class="nav__list" data-menu>
               <li class="nav__item">
                 <a href="#features" class="nav__link">Features</a>
               </li>
@@ -450,5 +457,7 @@
           <p class="footer__text">	&copy; 2015 Axure Themes</p>
       </div>
     </footer> 
+
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
