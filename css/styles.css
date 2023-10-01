@@ -1185,17 +1185,23 @@ margin-bottom: 73px; */
   /* height: 358px; */
 
   background-color: rgba(0, 0, 0, 0.5);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('../images/banner-mobile.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-@media screen and (min-width: 481px) {
+@media screen and (max-width: 479px) {
   .banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url('../images/banner-mobile.jpg');
+    background-position: top center;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .banner {
+    padding-top: 90px;
+    padding-bottom: 50px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url('../images/banner_img.jpg');
-    background-position: center;
   }
 }
 
@@ -1203,6 +1209,11 @@ margin-bottom: 73px; */
   font-size: 24px;
   color: #ffffff;
   margin-bottom: 16px;
+}
+@media screen and (min-width: 768px) {
+  .banner__title {
+    margin-bottom: 32px;
+  }
 }
 
 .banner__title:after {
@@ -1214,10 +1225,23 @@ margin-bottom: 73px; */
   margin-bottom: 66px;
   /* margin-bottom: 73px; */
 }
-/* 
-.banner__btn {
-  /* min-width: 370px; */
-/* } */
+@media screen and (min-width: 768px) {
+  .text--white {
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .banner__btn {
+    min-width: 318px;
+    height: 58px;
+    margin: 0 auto;
+  }
+}
+
+/* .banner__btn {
+   min-width: 370px; 
+ }  */
 
 /* ----------------------- contact section ----------------- */
 
