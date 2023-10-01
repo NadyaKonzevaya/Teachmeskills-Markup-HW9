@@ -734,6 +734,11 @@ margin-bottom: 73px; */
   /* padding-top: 110px;
   padding-bottom: 60px; */
 }
+@media screen and (min-width: 768px) {
+  .about {
+    padding-top: 95px;
+  }
+}
 
 .title {
   position: relative;
@@ -747,6 +752,13 @@ margin-bottom: 73px; */
   /* font-size: 36px; */
   font-weight: 400;
   text-transform: uppercase;
+}
+@media screen and (min-width: 768px) {
+  .title {
+    margin-bottom: 32px;
+
+    font-size: 24px;
+  }
 }
 
 .title::after {
@@ -764,6 +776,11 @@ margin-bottom: 73px; */
 
   background-color: #ec7979;
 }
+@media screen and (min-width: 768px) {
+  .title::after {
+    width: 142px;
+  }
+}
 
 .about__text {
   /* margin-bottom: 110px; */
@@ -771,6 +788,13 @@ margin-bottom: 73px; */
 
   font-size: 13px;
 }
+@media screen and (min-width: 768px) {
+  .about__text {
+    margin-bottom: 66px;
+    font-size: 14px;
+  }
+}
+
 .about__list {
   display: flex;
   flex-direction: column;
@@ -778,10 +802,22 @@ margin-bottom: 73px; */
   /* gap: 30px; */
   gap: 35px;
 }
+@media screen and (min-width: 768px) {
+  .about__list {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+  }
+}
 
 .about__list__item {
   /* width: 370px; */
   width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .about__list__item {
+    /* width: 318px; */
+  }
 }
 
 .about__list__icon {
@@ -806,9 +842,14 @@ margin-bottom: 73px; */
   border: 1px solid #ec7979;
   border-radius: 50%;
 }
+@media screen and (min-width: 768px) {
+  .about__circle {
+    margin-bottom: 60px;
+  }
+}
 
 .icon-bulb {
-  width: 56px;
+  width: 65px;
   /* width: 72px; */
   fill: currentColor;
 }
@@ -824,13 +865,6 @@ margin-bottom: 73px; */
   /* height: 66px; */
   fill: currentColor;
 }
-.about__list__svg {
-  width: 170px;
-  height: 170px;
-  margin-bottom: 50px;
-  margin-right: auto;
-  margin-left: auto;
-}
 
 .icon1 {
   background-image: url(../images/about_icon_1.svg);
@@ -845,8 +879,13 @@ margin-bottom: 73px; */
 }
 
 .about__list__title {
-  margin-bottom: 35px;
+  margin-bottom: 34px;
   /* margin-bottom: 45px; */
+}
+@media screen and (min-width: 768px) {
+  .about__list__title {
+    margin-bottom: 40px;
+  }
 }
 
 .about__list__text {
