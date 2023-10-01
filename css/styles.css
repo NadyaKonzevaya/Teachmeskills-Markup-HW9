@@ -924,7 +924,7 @@ margin-bottom: 73px; */
 }
 @media screen and (min-width: 768px) {
   .pricing__text {
-    margin-bottom: 50px;
+    margin-bottom: 32px;
   }
 }
 
@@ -941,6 +941,7 @@ margin-bottom: 73px; */
   .pricing__wrap,
   .reviews__wrap {
     flex-direction: row;
+    justify-content: space-between;
     gap: 20px;
   }
 }
@@ -1046,6 +1047,12 @@ margin-bottom: 73px; */
   padding-top: 30px;
   padding-bottom: 30px;
 }
+@media screen and (min-width: 768px) {
+  .reviews {
+    padding-top: 90px;
+    padding-bottom: 60px;
+  }
+}
 
 @media screen and (max-width: 767px) {
   .reviews__title {
@@ -1067,6 +1074,12 @@ margin-bottom: 73px; */
   background-color: #e2e2e2;
   border-radius: 10px;
 }
+@media screen and (min-width: 768px) {
+  .reviews__text {
+    margin-bottom: 66px;
+    padding: 50px 30px;
+  }
+}
 
 .reviews__text::after {
   content: '';
@@ -1083,6 +1096,11 @@ margin-bottom: 73px; */
   /* border-left: 15px solid transparent;
   border-right: 15px solid transparent;
   border-top: 20px solid #e2e2e2; */
+}
+@media screen and (min-width: 768px) {
+  .reviews__text::after {
+    left: 60px;
+  }
 }
 
 .reviews__item__wrap {
@@ -1105,6 +1123,12 @@ margin-bottom: 73px; */
   border-radius: 50%;
   border: 2px solid #e2e2e2;
 }
+@media screen and (min-width: 768px) {
+  .reviews__img {
+    width: 63px;
+    height: 63px;
+  }
+}
 .img {
   max-width: 105%;
 }
@@ -1114,10 +1138,19 @@ margin-bottom: 73px; */
   /* padding-top: 18px; */
   text-align: start;
 }
+@media screen and (min-width: 768px) {
+  .reviews__info__wrap {
+    padding-top: 10px;
+  }
+}
 
 .reviews__item {
-  /* width: calc((100% - 2 * 30px) / 3); */
   width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .reviews__item {
+    width: calc((100% - 2 * 30px) / 3);
+  }
 }
 
 .reviews__name {
@@ -1125,9 +1158,20 @@ margin-bottom: 73px; */
   /* margin-bottom: 35px; */
   margin-bottom: 20px;
 }
+@media screen and (min-width: 768px) {
+  .reviews__name {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+}
 
 .reviews__position {
   font-size: 13px;
+}
+@media screen and (min-width: 768px) {
+  .reviews__position {
+    font-size: 14px;
+  }
 }
 /* -------------------- banner section -------------------- */
 .banner {
