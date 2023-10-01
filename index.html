@@ -23,7 +23,7 @@
   </head>
   <body>
     <header class="header">
-      <div class="header__container">
+      <div class="container header__container">
         <a href="#" class="header__link">
           <svg class="header__logo" aria-label="Логотип компании">
             <use href="./images/icons.svg#icon-logo"></use>
@@ -54,7 +54,7 @@
     </header>
     <main>
       <section class="hero">
-        <div class="hero__container">
+        <div class="container hero__container">
           <div class="hero__info-wrap">
             <svg class="logo" aria-label="Логотип компании">
               <use href="./images/icons.svg#icon-logo"></use>
@@ -63,7 +63,8 @@
             <p class="hero__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
             <a href="#" download="MODERN AXURE TEMPLATE" class="btn btn--white"> Download </a>
           </div>
-          <form action="#" method="post" class="hero__form">
+          <div class="hero__form__wrap">
+            <form action="#" method="post" class="hero__form">
             <h3 class="subtitle hero__form__title">
               Try Your <span class="hero__span">FREE</span> Trial Today
             </h3>
@@ -87,6 +88,7 @@
             </div>
             <button type="submit" class="form__button">Get Started</button>
           </form>
+          </div>
         </div>
       </section>
       <section class="social">
